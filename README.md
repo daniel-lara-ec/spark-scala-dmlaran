@@ -14,7 +14,7 @@
   <p align="center">
     Funciones nativas para Apache Spark escritas en Scala.
     <br />
-    <a href="https://github.com/daniel-lara-ec/Utilidades_ETLs/issues">Reportar un Problema</a>
+    <a href="https://github.com/daniel-lara-ec/spark-scala-dmlaran/issues">Reportar un Problema</a>
     <br />
     <br />
   </p>
@@ -52,15 +52,15 @@ Distribuido bajo la licencia MIT.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/daniel-lara-ec/Proyectos_ServiciosExternos_SuspensionServicioElectrico.svg?style=for-the-badge
-[contributors-url]: https://github.com/daniel-lara-ec/Utilidades_ETLs/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/daniel-lara-ec/Proyectos_ServiciosExternos_SuspensionServicioElectrico.svg?style=for-the-badge
-[forks-url]: https://github.com/daniel-lara-ec/Utilidades_ETLs/forks
-[stars-shield]: https://img.shields.io/github/stars/daniel-lara-ec/Proyectos_ServiciosExternos_SuspensionServicioElectrico?style=for-the-badge
-[stars-url]: https://github.com/daniel-lara-ec/Utilidades_ETLs/stargazers
-[issues-shield]: https://img.shields.io/github/issues/daniel-lara-ec/Proyectos_ServiciosExternos_SuspensionServicioElectrico.svg?style=for-the-badge
-[issues-url]: https://github.com/daniel-lara-ec/Utilidades_ETLs/issues
-[license-shield]: https://img.shields.io/github/license/daniel-lara-ec/Proyectos_ServiciosExternos_SuspensionServicioElectrico.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/daniel-lara-ec/spark-scala-dmlaran.svg?style=for-the-badge
+[contributors-url]: https://github.com/daniel-lara-ec/spark-scala-dmlaran/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/daniel-lara-ec/spark-scala-dmlaran.svg?style=for-the-badge
+[forks-url]: https://github.com/daniel-lara-ec/spark-scala-dmlaran/forks
+[stars-shield]: https://img.shields.io/github/stars/daniel-lara-ec/spark-scala-dmlaran?style=for-the-badge
+[stars-url]: https://github.com/daniel-lara-ec/spark-scala-dmlaran/stargazers
+[issues-shield]: https://img.shields.io/github/issues/daniel-lara-ec/spark-scala-dmlaran.svg?style=for-the-badge
+[issues-url]: https://github.com/daniel-lara-ec/spark-scala-dmlaran/issues
+[license-shield]: https://img.shields.io/github/license/daniel-lara-ec/spark-scala-dmlaran.svg?style=for-the-badge
 [license-url]: https://es.wikipedia.org/wiki/Licencia_MIT
 [linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url-dmln]: https://www.linkedin.com/in/mat-daniel-lara/
