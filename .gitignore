@@ -1,0 +1,83 @@
+# Creado para proyectos Scala con sbt
+
+# Directorios de compilación y salida
+# ----------------------------------
+target/
+project/target/
+.bloop/
+.metals/
+.sbt/
+.idea_modules/
+
+# Logs y archivos temporales
+# --------------------------
+*.log
+*.tmp
+*.bak
+*.cache
+logs/
+
+# Dependencias y artefactos generados
+# -----------------------------------
+# Directorios de caché y dependencias de sbt
+.sbt_cache/
+lib_managed/
+
+# Empaquetado/Artefactos de distribución
+*.jar
+*.war
+*.zip
+*.tar
+*.tgz
+
+# Entornos de desarrollo integrados (IDEs)
+# ----------------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code (si usas Metals o Extensiones de Scala)
+.vscode/
+# Aunque .vscode/ debe ser ignorado, a veces querrás rastrear settings.json
+# para configuraciones compartidas del equipo. Si ese es el caso, puedes descomentar la línea de abajo.
+# !.vscode/settings.json
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Otros archivos de sbt
+# ---------------------
+.bloop
+.jvmopts
+.sbtopts
+.scala-build
+
+# Archivos de sistema operativo
+# -----------------------------
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Archivos de caché del sistema de paquetes (ej. Coursier)
+.coursier/
+
+# Archivos de credenciales o de configuración sensibles (¡muy importante!)
+# ---------------------------------------------------------------------
+*.conf.template # Si tienes plantillas de configuración
+*.properties.template
+*.env
+.env
+secret.conf
+application.conf # Si tu aplicación carga configuraciones sensibles desde aquí y no son parte del repositorio.
+# O cualquier otro archivo que contenga credenciales de API, contraseñas, claves, etc.
+# Si tu proyecto usa archivos de configuración con credenciales, lo ideal es usar variables de entorno
+# o un sistema de gestión de secretos, no subirlos al control de versiones.
+
+# Otros generados por el build
+# -----------------------------
+src/main/resources/version.conf
