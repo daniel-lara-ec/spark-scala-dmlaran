@@ -4,6 +4,7 @@ import org.apache.spark.sql.api.java.UDF1
 import ai.onnxruntime._
 import org.apache.spark.SparkFiles
 import scala.collection.JavaConverters._
+import ai.onnxruntime.OrtSession.SessionOptions
 import java.util
 
 class AutoencoderUDF
@@ -15,7 +16,13 @@ class AutoencoderUDF
     val env: OrtEnvironment = OrtEnvironment.getEnvironment
     val session: OrtSession = {
       val modelPath = SparkFiles.get("encoderV2.onnx")
-      env.createSession(modelPath, new OrtSession.SessionOptions())
+
+      // Configuramos la sesión con pocos hilos
+      val opts = new SessionOptions()
+      opts.setIntraOpNumThreads(1)
+      opts.setInterOpNumThreads(1)
+
+      env.createSession(modelPath, opts)
     }
 
     val inputTensorData = features.map(_.toFloat).toArray
